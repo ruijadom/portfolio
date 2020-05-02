@@ -19,10 +19,22 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Ruijadom`,
+        short_name: `Ruijadom`,
+        start_url: `/`,
+        background_color: `#141218`,
+        theme_color: `#342065`,
+        display: `standalone`,
+        icon: `src/assets/icons/logo.png`
+      },
+    },
+    {
       resolve: `gatsby-plugin-nprogress`,
       options: {
         // Setting a color is optional.
-        color: `tomato`,
+        color: `#342065`,
         // Disable the loading spinner.
         showSpinner: false,
       },
@@ -47,6 +59,7 @@ module.exports = {
           },
         ],
       },
-    }
+    },
+    `gatsby-plugin-offline`
   ]
 }

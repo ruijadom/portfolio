@@ -29,3 +29,13 @@ npm install --save gatsby-plugin-prefetch-google-fonts
 ```
 npm install --save gatsby-plugin-react-helmet react-helmet
 ```
+
+### [gatsby-plugin-offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline/?=offli).
+```
+npm install --save gatsby-plugin-offline
+```
+
+### [gatsby-plugin-manifest](https://www.gatsbyjs.org/packages/gatsby-plugin-manifest/?=maniges).
+```
+npm install --save gatsby-plugin-manifest
+```
