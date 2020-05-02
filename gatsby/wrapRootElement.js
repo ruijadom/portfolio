@@ -4,5 +4,5 @@ import { ThemeProvider } from 'styled-components';
 import light from '../src/styles/themes/light';
 
 export function wrapRootElement({ element }) {
-  return <ThemeProvider theme={light}>{element}</ThemeProvider>
+  return <ThemeProvider theme={light}>{element}</ThemeProvider>;
 }

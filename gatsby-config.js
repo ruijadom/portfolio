@@ -98,6 +98,6 @@ module.exports = {
         cachePublic: true
       },
     },
-    `gatsby-plugin-offline`
+    `gatsby-plugin-offline`,
   ]
 }
