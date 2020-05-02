@@ -24,3 +24,8 @@ npm install --save gatsby-plugin-google-analytics
 ```
 npm install --save gatsby-plugin-prefetch-google-fonts
 ```
+
+### [gatsby-plugin-react-helmet](https://www.gatsbyjs.org/packages/gatsby-plugin-react-helmet/?=helmet).
+```
+npm install --save gatsby-plugin-react-helmet react-helmet
+```
