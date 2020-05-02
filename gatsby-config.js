@@ -1,8 +1,6 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
+require(`dotenv`).config({
+  path: `.env`,
+})
 
 module.exports = {
   siteMetadata: {
@@ -43,7 +41,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "231130702",
+        trackingId: process.env.GOOGLE_ANALYTICS_ID,
       },
     },
     {
