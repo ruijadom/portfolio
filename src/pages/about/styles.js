@@ -1,5 +1,5 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  color: #342065;
+  color: ${props => props.theme.primary};
 `;
