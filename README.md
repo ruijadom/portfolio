@@ -39,3 +39,13 @@ npm install --save gatsby-plugin-offline
 ```
 npm install --save gatsby-plugin-manifest
 ```
+
+### [gatsby-plugin-canonical-urls](https://www.gatsbyjs.org/packages/gatsby-plugin-canonical-urls/?=canon).
+```
+npm install --save gatsby-plugin-canonical-urls
+```
+
+### [gatsby-plugin-sitemap](https://www.gatsbyjs.org/packages/gatsby-plugin-sitemap/?=sitemap).
+```
+npm install --save gatsby-plugin-sitemap
+```
