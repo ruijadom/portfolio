@@ -1,11 +1,9 @@
-import React from 'react';
-
-import { Container } from './styles';
+import React from "react"
 
 export default function About() {
   return (
-    <Container>
+    <div>
       <h1>Hello World</h1>
-    </Container>
-  );
+    </div>
+  )
 }
