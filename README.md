@@ -49,3 +49,13 @@ npm install --save gatsby-plugin-canonical-urls
 ```
 npm install --save gatsby-plugin-sitemap
 ```
+
+### [gatsby-plugin-styled-components](https://www.gatsbyjs.org/packages/gatsby-plugin-styled-components/?=styleld).
+```
+npm install --save gatsby-plugin-styled-components styled-components babel-plugin-styled-components
+```
+
+### [gatsby-plugin-page-creator](https://www.gatsbyjs.org/packages/gatsby-plugin-page-creator/?=page%20c).
+```
+npm install --save gatsby-plugin-page-creator
+```
