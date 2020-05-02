@@ -2,9 +2,9 @@ import React from 'react'
 import { Container } from './styles';
 
 export default function About() {
-  return (
+  return(
     <Container>
-      <h1>About</h1>
+      <h1>Hello World</h1>
     </Container>
-  )
+  );
 }
