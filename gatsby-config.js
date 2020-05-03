@@ -1,18 +1,15 @@
+const config = require('./src/data/config');
+
 require(`dotenv`).config({
   path: `.env`,
 })
 
 module.exports = {
   siteMetadata: {
-    title: `Ruijdom`,
-    siteUrl: `https://ruijadomingues.netlify.app/`,
-    description: `Portfolio`,
-    social: [
-      {
-        name: "github",
-        url: "https://github.com/ruijadom",
-      },
-    ],
+    title: config.title,
+    siteUrl: config.siteUrl,
+    description: config.description,
+    social: config.social
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -25,8 +22,8 @@ module.exports = {
         name: `Ruijadom`,
         short_name: `Ruijadom`,
         start_url: `/`,
-        background_color: `#141218`,
-        theme_color: `#342065`,
+        background_color: config.background_color,
+        theme_color: config.theme_color,
         display: `standalone`,
         icon: `src/assets/icons/logo.png`
       },
