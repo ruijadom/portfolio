@@ -60,6 +60,26 @@ npm install --save gatsby-plugin-styled-components styled-components babel-plugi
 npm install --save gatsby-plugin-page-creator
 ```
 
+### [gatsby-plugin-sharp](https://www.gatsbyjs.org/packages/gatsby-plugin-sharp/).
+```
+npm install --save gatsby-plugin-sharp
+```
+
+### [gatsby-transformer-sharp](https://www.gatsbyjs.org/packages/gatsby-transformer-sharp/?=gatsby-transformer-sharp).
+```
+npm install --save gatsby-transformer-sharp gatsby-plugin-sharp
+```
+
+### [gatsby-source-filesystem](https://www.gatsbyjs.org/packages/gatsby-source-filesystem/?=gatsby-source-filesystem).
+```
+npm install --save gatsby-source-filesystem
+```
+
+### [gatsby-source-graphql](https://www.gatsbyjs.org/packages/gatsby-source-graphql/?=gatsby-source-graphql).
+```
+npm install --save gatsby-source-graphql
+```
+
 ### Customizing html.js
 
 Gatsby uses a React component to server render the <head> and other parts of the HTML outside of the core Gatsby application.

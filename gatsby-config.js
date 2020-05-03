@@ -16,6 +16,8 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -27,6 +29,24 @@ module.exports = {
         theme_color: `#342065`,
         display: `standalone`,
         icon: `src/assets/icons/logo.png`
+      },
+    },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        displayName: process.env.NODE_ENV !== 'production',
+      },
+    },
+    {
+      resolve: 'gatsby-source-graphql',
+      options: {
+        typeName: 'GitHub',
+        fieldName: 'github',
+        url: 'https://api.github.com/graphql',
+        headers: {
+          Authorization: `bearer ${process.env.GATSBY_PORTFOLIO_GITHUB_TOKEN}`,
+        },
+        fetchOptions: {},
       },
     },
     {
@@ -63,12 +83,6 @@ module.exports = {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
         siteUrl: `https://ruijadomingues.netlify.app/`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-styled-components`,
-      options: {
-        displayName: process.env.NODE_ENV !== 'production',
       },
     },
     {
