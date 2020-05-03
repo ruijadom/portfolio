@@ -603,7 +603,8 @@ export const Global = createGlobalStyle`
       margin: 0;
       padding: 0;
       font-family: 'Cairo', Helvetica, sans-serif;
-      color: hsla(0, 0%, 0%, 0.8);
+      background: #141218;
+      color: #FFF;
       font-weight: normal;
       word-wrap: break-word;
       font-kerning: normal;
