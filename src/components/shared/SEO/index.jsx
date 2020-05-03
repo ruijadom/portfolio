@@ -1,5 +1,5 @@
 import React from 'react';
-import Helmet from 'react-helmet';
+import { Helmet } from "react-helmet";
 import Thumbnail from 'assets/thumbnail/thumbnail.png';
 import { defaultTitle, logo, legalName, siteUrl, defaultDescription, socialLinks, social, address, contact } from 'data/config';
 
@@ -22,7 +22,7 @@ export const SEO = ({ title = defaultTitle, description = defaultDescription, lo
 		"sameAs": [
 			"${socialLinks.linkedin}",
 			"${socialLinks.instagram}",
-			"${socsocialLinksial.github}"
+			"${socialLinks.github}"
 		]
   }`;
 
