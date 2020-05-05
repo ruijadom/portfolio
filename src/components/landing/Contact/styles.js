@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   padding: 4rem 0;
+`;
+
+export const VerticalBox = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -9,7 +12,7 @@ export const Wrapper = styled.div`
   @media (max-width: 960px) {
     flex-direction: column;
   }
-`;
+`
 
 export const Details = styled.div`
   flex: 1;

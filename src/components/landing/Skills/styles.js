@@ -20,7 +20,7 @@ export const SkillsWrapper = styled.div`
 `;
 
 export const Details = styled.div`
-  flex: 1;
+  flex: 2;
   padding-left: 2rem;
 
   @media (max-width: 960px) {
@@ -52,6 +52,6 @@ export const Thumbnail = styled.div`
   }
 
   img {
-    width: 100%;
+    width: 50%;
   }
 `;
