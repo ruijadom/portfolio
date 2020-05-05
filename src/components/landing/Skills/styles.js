@@ -41,6 +41,11 @@ export const Details = styled.div`
     line-height: 1.3;
     color: #707070;
   }
+
+`;
+
+export const Skills = styled.div`
+  padding: 10px;
 `;
 
 export const Thumbnail = styled.div`

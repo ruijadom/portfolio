@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "HTML"
+  },
+  {
+    "id": 2,
+    "name": "CSS"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript"
+  },
+  {
+    "id": 4,
+    "name": "JQuery"
+  },
+  {
+    "id": 5,
+    "name": "React"
+  },
+  {
+    "id": 6,
+    "name": "Redux"
+  },
+  {
+    "id": 7,
+    "name": "Angular"
+  },
+  {
+    "id": 8,
+    "name": "AngularJS"
+  },
+  {
+    "id": 9,
+    "name": "MySql"
+  }
+]

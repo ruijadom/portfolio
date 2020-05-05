@@ -17,7 +17,7 @@ export const Hero = () => (
       <Details>
         <h4>I’m Rui Domingues and I’m a Front-End Developer!</h4>
         <Button as={AnchorLink} href="#contact">
-          Call me
+          Hire me
         </Button>
       </Details>
 
