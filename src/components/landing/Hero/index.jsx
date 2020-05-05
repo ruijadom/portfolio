@@ -10,14 +10,17 @@ import { Wrapper, IntroWrapper, Details, Thumbnail } from "./styles"
 export const Hero = () => (
   <Wrapper>
     <Header />
+      <Thumbnail>
+        <img src={dev} alt="I’m Rui Domingues and I’m a Front-End Developer!" />
+      </Thumbnail>
     <IntroWrapper as={Container}>
       <Details>
-        <h1>Hi There!</h1>
         <h4>I’m Rui Domingues and I’m a Front-End Developer!</h4>
         <Button as={AnchorLink} href="#contact">
           Hire me
         </Button>
       </Details>
+
     </IntroWrapper>
   </Wrapper>
 )
