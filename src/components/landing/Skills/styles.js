@@ -1,8 +1,7 @@
 import styled from 'styled-components';
-import detailsIllustration from 'assets/illustrations/details.svg';
+
 
 export const Wrapper = styled.div`
-  background-image: url(${detailsIllustration});
   background-size: contain;
   background-position: left top;
   background-repeat: no-repeat;
@@ -20,8 +19,7 @@ export const SkillsWrapper = styled.div`
 `;
 
 export const Details = styled.div`
-  flex: 2;
-  padding-left: 2rem;
+  flex: 1;
 
   @media (max-width: 960px) {
     padding-left: unset;
@@ -31,7 +29,7 @@ export const Details = styled.div`
   h1 {
     margin-bottom: 2rem;
     font-size: 26pt;
-    color: #212121;
+    color: #DDD;
   }
 
   p {
@@ -44,12 +42,33 @@ export const Details = styled.div`
 
 `;
 
-export const Skills = styled.div`
-  padding: 10px;
+export const DetailSkill = styled.div`
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 8fr;
+  gap: 1.2rem 1.2rem;
+
+  @media (max-width: 960px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 680px) {
+    grid-template-columns: 1fr;
+  }
+`;
+
+export const Badge = styled.div`
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  background: #212121;
+  border-radius: 10px;
+  width: 100px;
 `;
 
 export const Thumbnail = styled.div`
-  flex: 1;
+  flex: 3;
 
   @media (max-width: 960px) {
     width: 100%;
@@ -57,6 +76,6 @@ export const Thumbnail = styled.div`
   }
 
   img {
-    width: 50%;
+    width: 100%;
   }
 `;
