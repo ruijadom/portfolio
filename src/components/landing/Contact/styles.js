@@ -1,8 +1,8 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   padding: 4rem 0;
-`;
+`
 
 export const VerticalBox = styled.div`
   display: flex;
@@ -36,7 +36,7 @@ export const Details = styled.div`
     line-height: 1.3;
     color: #707070;
   }
-`;
+`
 
 export const Thumbnail = styled.div`
   flex: 1;
@@ -49,4 +49,4 @@ export const Thumbnail = styled.div`
   img {
     width: 100%;
   }
-`;
+`

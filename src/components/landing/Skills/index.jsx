@@ -1,6 +1,6 @@
-import React from "react"
-import AnchorLink from "react-anchor-link-smooth-scroll"
-import { Container, Button } from "components/shared"
+import React from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { Container, Button } from 'components/shared'
 import {
   Wrapper,
   SkillsWrapper,
@@ -8,8 +8,8 @@ import {
   Badge,
   DetailSkill,
   Thumbnail,
-} from "./styles"
-import skills from "./skills.json"
+} from './styles'
+import skills from './skills.json'
 
 export const Skills = () => (
   <Wrapper id="about">

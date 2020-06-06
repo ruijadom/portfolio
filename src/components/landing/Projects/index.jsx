@@ -1,9 +1,9 @@
-import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-import { Container, Card } from 'components/shared';
-import starIcon from 'assets/icons/star.svg';
-import forkIcon from 'assets/icons/fork.svg';
-import { Wrapper, Grid, Item, Content, Stats } from './styles';
+import React from 'react'
+import { useStaticQuery, graphql } from 'gatsby'
+import { Container, Card } from 'components/shared'
+import starIcon from 'assets/icons/star.svg'
+import forkIcon from 'assets/icons/fork.svg'
+import { Wrapper, Grid, Item, Content, Stats } from './styles'
 
 export const Projects = () => {
   const {
@@ -17,7 +17,10 @@ export const Projects = () => {
       {
         github {
           viewer {
-            repositories(first: 8, orderBy: { field: STARGAZERS, direction: DESC }) {
+            repositories(
+              first: 8
+              orderBy: { field: STARGAZERS, direction: DESC }
+            ) {
               edges {
                 node {
                   id
@@ -35,13 +38,19 @@ export const Projects = () => {
         }
       }
     `
-  );
+  )
   return (
     <Wrapper as={Container} id="projects">
       <h2>Projects</h2>
       <Grid>
         {edges.map(({ node }) => (
-          <Item key={node.id} as="a" href={node.url} target="_blank" rel="noopener noreferrer">
+          <Item
+            key={node.id}
+            as="a"
+            href={node.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Card>
               <Content>
                 <h4>{node.name}</h4>
@@ -62,5 +71,5 @@ export const Projects = () => {
         ))}
       </Grid>
     </Wrapper>
-  );
-};
+  )
+}

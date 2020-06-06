@@ -1,4 +1,4 @@
-const config = require('./src/data/config');
+const config = require('./src/data/config')
 
 require(`dotenv`).config({
   path: `.env`,
@@ -9,7 +9,7 @@ module.exports = {
     title: config.title,
     siteUrl: config.siteUrl,
     description: config.description,
-    social: config.social
+    social: config.social,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -43,7 +43,7 @@ module.exports = {
         background_color: config.background_color,
         theme_color: config.theme_color,
         display: `standalone`,
-        icon: `src/assets/icons/logo.png`
+        icon: `src/assets/icons/logo.png`,
       },
     },
     {
@@ -120,11 +120,11 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-netlify-cache",
+      resolve: 'gatsby-plugin-netlify-cache',
       options: {
-        cachePublic: true
+        cachePublic: true,
       },
     },
     `gatsby-plugin-offline`,
-  ]
+  ],
 }

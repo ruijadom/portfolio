@@ -1,9 +1,23 @@
-import React from 'react';
-import { Helmet } from "react-helmet";
-import Thumbnail from 'assets/thumbnail/thumbnail.png';
-import { defaultTitle, logo, legalName, siteUrl, defaultDescription, socialLinks, social, address, contact } from 'data/config';
+import React from 'react'
+import { Helmet } from 'react-helmet'
+import Thumbnail from 'assets/thumbnail/thumbnail.png'
+import {
+  defaultTitle,
+  logo,
+  legalName,
+  siteUrl,
+  defaultDescription,
+  socialLinks,
+  social,
+  address,
+  contact,
+} from 'data/config'
 
-export const SEO = ({ title = defaultTitle, description = defaultDescription, location = '' }) => {
+export const SEO = ({
+  title = defaultTitle,
+  description = defaultDescription,
+  location = '',
+}) => {
   const structuredDataOrganization = `{
     "@context": "http://schema.org",
 		"@type": "Organization",
@@ -24,14 +38,17 @@ export const SEO = ({ title = defaultTitle, description = defaultDescription, lo
 			"${socialLinks.instagram}",
 			"${socialLinks.github}"
 		]
-  }`;
+  }`
 
   return (
     <Helmet>
       <meta name="description" content={description} />
       <meta name="image" content={Thumbnail} />
 
-      <meta property="og:url" content={`${siteUrl}${location}/?ref=ruijadomingues.netlify.app`} />
+      <meta
+        property="og:url"
+        content={`${siteUrl}${location}/?ref=ruijadomingues.netlify.app`}
+      />
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />

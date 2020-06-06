@@ -15,12 +15,12 @@ module.exports = {
     },
     {
       name: `linkedin`,
-      url: `https://www.linkedin.com/in/ruijadomingues/`
+      url: `https://www.linkedin.com/in/ruijadomingues/`,
     },
     {
       name: `instagram`,
-      url: `https://www.instagram.com/ruijadomingues_/`
-    }
+      url: `https://www.instagram.com/ruijadomingues_/`,
+    },
   ],
   background_color: `#141218`,
   theme_color: `#342065`,
@@ -30,9 +30,9 @@ module.exports = {
   },
   address: {
     city: `Viana do Castelo`,
-    country: `Portugal`
+    country: `Portugal`,
   },
   contact: {
-    email: `${process.env.CONTACT_EMAIL}`
-  }
+    email: `${process.env.CONTACT_EMAIL}`,
+  },
 }
