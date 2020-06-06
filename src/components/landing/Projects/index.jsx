@@ -41,7 +41,7 @@ export const Projects = () => {
   )
   return (
     <Wrapper as={Container} id="projects">
-      <h2>Projects</h2>
+      <h2>Projects on GitHub</h2>
       <Grid>
         {edges.map(({ node }) => (
           <Item
