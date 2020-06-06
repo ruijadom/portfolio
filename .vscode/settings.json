@@ -2,9 +2,22 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.preferences.importModuleSpecifier": "non-relative",
   "workbench.colorCustomizations": {
-    "titleBar.activeForeground": "#000",
-    "titleBar.inactiveForeground": "#000000CC",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveForeground": "#e7e7e799",
     "titleBar.activeBackground": "#795ac9",
-    "titleBar.inactiveBackground": "#7056b3"
-  }
+    "titleBar.inactiveBackground": "#795ac999",
+    "activityBar.activeBackground": "#9880d6",
+    "activityBar.activeBorder": "#e8c4b7",
+    "activityBar.background": "#9880d6",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#e8c4b7",
+    "activityBarBadge.foreground": "#15202b",
+    "statusBar.background": "#795ac9",
+    "statusBar.border": "#795ac9",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#9880d6",
+    "titleBar.border": "#795ac9"
+  },
+  "peacock.color": "#795ac9"
 }
