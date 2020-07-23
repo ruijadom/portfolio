@@ -27,9 +27,8 @@ export const Item = styled.div`
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.11);
   border-radius: 0.5rem;
   cursor: pointer;
-  
   h4 {
-    color: #212121;
+    color: #ddd;
     margin-bottom: 0;
   }
 
@@ -58,7 +57,7 @@ export const Stats = styled.div`
     }
 
     span {
-      color: #000;
+      color: #707070;
       margin-left: 0.5rem;
     }
   }

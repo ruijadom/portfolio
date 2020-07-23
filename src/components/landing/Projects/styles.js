@@ -29,7 +29,7 @@ export const Item = styled.div`
   cursor: pointer;
   
   h3 {
-    color: #212121;
+    color: #ddd;
   }
 
   p {
