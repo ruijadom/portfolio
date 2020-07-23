@@ -126,6 +126,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-  ],
-  pathPrefix: `/ruijadomingues`,
+  ]
 }
