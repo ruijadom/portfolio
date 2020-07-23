@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Cota-0",
+    "desc": "Topography website",
+    "url": "http://cota-0.com/",
+    "img": "assets/projects/cota0.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Quinta do Caminho",
+    "desc": "Hotel and restaurant",
+    "url": "https://quintadocaminho.com/",
+    "img": "assets/projects/quintacaminho.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Mira",
+    "desc": "Cemetery management system",
+    "url": "https://mmira.pt/",
+    "img": "assets/projects/mmira.jpg"
+  },
+  {
+    "id": 4,
+    "name": "GEOflash",
+    "desc": "Ecommerce",
+    "url": "https://www.geoflash.pt/index.php?",
+    "img": "assets/projects/GEOflash.jpg"
+  }
+]

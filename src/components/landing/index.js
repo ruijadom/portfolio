@@ -1,4 +1,5 @@
 export * from './Hero'
+export * from './Repositories'
 export * from './Projects'
 export * from './Skills'
 export * from './Contact'

@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "name": "HTML"
+    "name": "HTML5"
   },
   {
     "id": 2,
-    "name": "CSS"
+    "name": "CSS3"
   },
   {
     "id": 3,
@@ -33,6 +33,18 @@
   },
   {
     "id": 9,
+    "name": "Webpack"
+  },
+  {
+    "id": 10,
+    "name": "Gruntjs"
+  },
+  {
+    "id": 11,
+    "name": "Ionic 4"
+  },
+  {
+    "id": 12,
     "name": "MySql"
   }
 ]

@@ -15,9 +15,9 @@ export const Hero = () => (
     <IntroWrapper as={Container}>
       <Details>
         <h4>Front-End Developer!</h4>
-        <Button as={AnchorLink} href="#contact">
+        {/* <Button as={AnchorLink} href="#contact">
           Hire me
-        </Button>
+        </Button> */}
       </Details>
     </IntroWrapper>
   </Wrapper>

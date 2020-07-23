@@ -65,6 +65,27 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+        plugins: [
+          `gatsby-transformer-sharp`,
+          `gatsby-plugin-sharp`,
+        ]
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projects`,
+        path: `${__dirname}/src/data/`,
+        plugins: [
+          `gatsby-transformer-json`
+        ]
+      }
+    },
+    {
       resolve: `gatsby-plugin-nprogress`,
       options: {
         // Setting a color is optional.

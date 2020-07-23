@@ -2,14 +2,14 @@ import styled from 'styled-components'
 import overlayIllustration from 'assets/photo.png'
 
 export const Wrapper = styled.div`
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   background-size: contain;
   background-position: right top;
   background-repeat: no-repeat;
 `
 
 export const IntroWrapper = styled.div`
-  padding: 2rem 0;
+  padding: 2rem 0 0 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -24,7 +24,7 @@ export const Details = styled.div`
   text-align: center;
   @media (max-width: 960px) {
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
   }
 
   h1 {

@@ -15,7 +15,7 @@ export const Skills = () => (
   <Wrapper id="about">
     <SkillsWrapper as={Container}>
       <Details>
-        <h2>Tech Skills</h2>
+        {/* <h2>Tech Skills</h2> */}
         <DetailSkill>
           {skills.map(({ id, name }) => (
             <Badge key={id}>{name}</Badge>
