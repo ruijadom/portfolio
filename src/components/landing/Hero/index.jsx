@@ -10,7 +10,7 @@ export const Hero = () => (
   <Wrapper>
     <Header />
     <Thumbnail>
-      <img src={dev} alt="I’m Rui Domingues and I’m a Front-End Developer!" />
+      <img src={dev} alt="Front-End Developer" />
     </Thumbnail>
     <IntroWrapper as={Container}>
       <Details>
