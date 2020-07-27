@@ -5,6 +5,7 @@ export const Wrapper = styled.div`
   z-index: 4;
   overflow: auto;
   top: 0px;
+  padding-top: 40px;
   right: -275px;
   width: 0;
   opacity: 0;
