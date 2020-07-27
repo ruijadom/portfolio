@@ -12,7 +12,7 @@ import {
 import skills from './skills.json'
 
 export const Skills = () => (
-  <Wrapper id="about">
+  <Wrapper>
     <SkillsWrapper as={Container}>
       <Details>
         {/* <h2>Tech Skills</h2> */}

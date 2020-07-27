@@ -7,7 +7,7 @@ import dev from 'assets/photo.png'
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles'
 
 export const Hero = () => (
-  <Wrapper>
+  <Wrapper id="about">
     <Header />
     <Thumbnail>
       <img src={dev} alt="Front-End Developer" />

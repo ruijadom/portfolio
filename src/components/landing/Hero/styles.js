@@ -50,6 +50,7 @@ export const Details = styled.div`
 `
 
 export const Thumbnail = styled.div`
+  padding: 4rem 0 0 0;
   text-align: center;
   @media (max-width: 960px) {
     width: 100%;
