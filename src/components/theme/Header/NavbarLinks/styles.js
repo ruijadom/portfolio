@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   a {
-    color: #6d6d6d;
+    color: #e3e3e3;
     text-decoration: none;
   }
 
@@ -32,6 +32,10 @@ export const Wrapper = styled.div`
 					&:last-child {
 							margin-bottom: unset;
 					}
+					
+					&:hover {
+						color: white;
+					}							
 			}
 	`}
 `
