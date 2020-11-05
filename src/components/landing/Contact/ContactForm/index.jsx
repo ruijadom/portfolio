@@ -17,16 +17,11 @@ export default () => (
     }}
     validationSchema={Yup.object().shape({
       name: Yup.string().required('Full name field is required'),
-      email: Yup.string()
-        .email('Invalid email')
-        .required('Email field is required'),
+      email: Yup.string().email('Invalid email').required('Email field is required'),
       message: Yup.string().required('Message field is required'),
       recaptcha: Yup.string().required('Robots are not welcome yet!'),
     })}
-    onSubmit={async (
-      { name, email, message },
-      { setSubmitting, resetForm, setFieldValue }
-    ) => {
+    onSubmit={async ({ name, email, message }, { setSubmitting, resetForm, setFieldValue }) => {
       try {
         await axios({
           method: 'POST',
@@ -105,9 +100,7 @@ export default () => (
         {values.success && (
           <InputField>
             <Center>
-              <h4>
-                Your message has been successfully sent, I will get back to you!
-              </h4>
+              <h4>Your message has been successfully sent, I will get back to you!</h4>
             </Center>
           </InputField>
         )}
