@@ -17,10 +17,7 @@ export const Repositories = () => {
       {
         github {
           viewer {
-            repositories(
-              first: 21
-              orderBy: { field: STARGAZERS, direction: DESC }
-            ) {
+            repositories(first: 21, orderBy: { field: STARGAZERS, direction: DESC }) {
               edges {
                 node {
                   id
@@ -44,13 +41,7 @@ export const Repositories = () => {
       <h2>Repositories on GitHub</h2>
       <Grid>
         {edges.map(({ node }) => (
-          <Item
-            key={node.id}
-            as="a"
-            href={node.url}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Item key={node.id} as="a" href={node.url} target="_blank" rel="noopener noreferrer">
             <Card>
               <Content>
                 <h4>{node.name}</h4>

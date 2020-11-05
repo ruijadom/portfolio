@@ -30,6 +30,7 @@ export const Item = styled.div`
   h4 {
     color: #ddd;
     margin-bottom: 0;
+    font-weight: 500;
   }
 
   p {
