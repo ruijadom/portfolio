@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
   right: 0;
   position: fixed;
   display: flex;
+  z-index: 1;
   align-items: center;
   justify-content: space-between;
   background: #141218;
