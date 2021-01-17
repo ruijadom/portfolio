@@ -95,24 +95,21 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-webfonts`,
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Cairo`,
-            subsets: [`latin`],
-          },
-          {
-            family: `Open Sans`,
-            variants: [`300`, `500`, `700`],
-          },
-        ],
+        fonts: {
+          google: [
+            {
+              family: "Cairo",
+              subsets: [`latin`],
+              variants: ["300", "400", "500"],
+            },
+            {
+              family: "Open Sans Condensed",
+              variants: ["300", "700"],
+            },
+          ],
+        },
       },
     },
     {

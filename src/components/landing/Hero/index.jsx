@@ -2,7 +2,7 @@ import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Header } from 'components/theme'
 import { Container, Button } from 'components/shared'
-import dev from 'assets/photo.png'
+import dev from 'assets/ruijadom.jpg'
 
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles'
 
