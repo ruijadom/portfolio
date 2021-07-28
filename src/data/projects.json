@@ -1,24 +1,30 @@
 [
   {
     "id": 1,
-    "name": "Quinta do Caminho",
-    "desc": "Hotel and restaurant",
-    "url": "https://quintadocaminho.com/",
-    "img": "src/images/quintacaminho.jpg"
+    "name": "Atelier Modular",
+    "desc": "Landing Page with Three.js",
+    "url": "https://www.ateliermodular.com/",
+    "img": ""
   },
   {
     "id": 2,
-    "name": "Mira",
-    "desc": "Cemetery management system",
-    "url": "https://mmira.pt/",
-    "img": "src/images/mmira.jpg"
-  },
-  {
-    "id": 3,
     "name": "GEOflash",
     "desc": "Ecommerce",
     "url": "https://www.geoflash.pt/index.php?",
-    "img": "src/images/GEOflash.jpg"
+    "img": ""
+  },
+  {
+    "id": 3,
+    "name": "Mira",
+    "desc": "Cemetery management system",
+    "url": "https://mmira.pt/",
+    "img": ""
+  },
+  {
+    "id": 4,
+    "name": "Quinta do Caminho",
+    "desc": "Hotel and restaurant",
+    "url": "https://quintadocaminho.com/",
+    "img": ""
   }
 ]
-
